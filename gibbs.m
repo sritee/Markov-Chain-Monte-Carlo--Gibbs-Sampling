@@ -1,6 +1,6 @@
 %Gibbs Sampling code 
 %Here we will be sampling from a 2d gaussian, assuming 
-%we can sample for 1d gaussian which is the conditional distributio
+%we can sample for 1d gaussian which is the conditional distribution
 sample=[-3 3]; %Storing the 2d values obtained after initilizing
 param=0.5; 
 sigma=[1,param;param,1];% Covariance matrix, with correlation along one dimension
